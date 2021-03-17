@@ -29,6 +29,7 @@ img{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: auto;
   font-size: 2rem;
 }
 
@@ -67,4 +68,13 @@ img{
 
 .iframe{
   display: flex;
+}
+
+.rights{
+  font-family: sofia-pro, sans-serif;
+  color: azure;
+  margin-bottom: auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: .75rem;
 }

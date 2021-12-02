@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(13, 15, 24);
+  background-color: #202023;
 }
 
 img {
@@ -58,7 +58,7 @@ img {
     width: 90%;
   }
 }
-.joindiscord {
+.whitetext {
   color: azure;
   font-family: sofia-pro, sans-serif;
   font: normal;
@@ -91,4 +91,49 @@ img {
   color: azure;
   font-size: 40px;
   text-align: center;
+}
+
+.socials {
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.fas {
+  color: #fda067;
+  padding: 30px;
+}
+
+.fab {
+  color: #fda067;
+  padding: 30px;
+}
+
+.socials .fab:hover {
+  color: #fdc38c;
+}
+
+.socials .fas:hover {
+  color: #fdc38c;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(255, 171, 81, 0.645);
+  border-radius: 10px;
+  height: 30px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fda067;
+  border-radius: 20px;
+  height: 30px;
 }
